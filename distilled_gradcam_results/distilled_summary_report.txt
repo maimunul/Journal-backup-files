@@ -1,0 +1,55 @@
+======================================================================
+DISTILLED STUDENT MODEL - GRAD-CAM ANALYSIS SUMMARY
+======================================================================
+
+Report generated: 2025-12-16 23:18:29
+Model: VGG16_To_Student\VGG16Teacher_distil_T10.h5
+Teacher: VGG16
+Student: LiteCNN4Rice (Distilled)
+Total misclassifications: 11
+
+1. CONFUSION ANALYSIS:
+----------------------------------------
+Blast -> Bacterial Blight: 2 cases
+Blast -> Brown Spot: 4 cases
+Blast -> Tungro: 1 cases
+Brown Spot -> Bacterial Blight: 2 cases
+Brown Spot -> Tungro: 2 cases
+
+2. CONFIDENCE ANALYSIS:
+----------------------------------------
+Average confidence in misclassifications: 64.25%
+Minimum confidence: 40.40%
+Maximum confidence: 86.12%
+
+3. ATTENTION ANALYSIS:
+----------------------------------------
+Average attention coverage: 27.9%
+
+Attention by predicted class:
+  Bacterial Blight: 13.9% coverage
+  Brown Spot: 47.0% coverage
+  Tungro: 21.3% coverage
+
+4. KNOWLEDGE DISTILLATION INSIGHTS:
+----------------------------------------
+WARNING: 2 misclassifications with >80% confidence
+   The model is confidently wrong - may indicate overfitting to teacher's biases
+
+Attention pattern analysis:
+  Sparse attention (<15%): 4 cases
+  Diffuse attention (>50%): 2 cases
+
+5. RECOMMENDATIONS FOR IMPROVEMENT:
+----------------------------------------
+1. For high-confidence errors: Re-evaluate distillation alpha parameter
+2. For sparse attention: Model may need better feature localization
+3. For common confusions: Augment training data with challenging cases
+4. Consider adding spatial attention mechanisms to student architecture
+5. Adjust temperature parameter in knowledge distillation
+6. Implement ensemble of multiple distilled models
+7. Use Grad-CAM feedback for curriculum learning
+
+======================================================================
+END OF REPORT
+======================================================================

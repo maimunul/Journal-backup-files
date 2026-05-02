@@ -1,0 +1,10 @@
+                 precision    recall  f1-score   support
+
+Bacterialblight     0.9755    1.0000    0.9876       159
+          Blast     1.0000    0.9514    0.9751       144
+      Brownspot     0.9750    0.9750    0.9750       160
+         Tungro     0.9778    1.0000    0.9888       132
+
+       accuracy                         0.9815       595
+      macro avg     0.9821    0.9816    0.9816       595
+   weighted avg     0.9818    0.9815    0.9814       595

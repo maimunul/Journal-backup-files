@@ -1,0 +1,26 @@
+{
+    "temperature": 10,
+    "best_seed": 1918,
+    "best_accuracy": 97.3109243697479,
+    "best_loss": 0.07368247864130688,
+    "all_seeds": [
+        6789,
+        3721,
+        1918,
+        8259,
+        7854
+    ],
+    "all_accuracies": [
+        91.76470588235294,
+        95.7983193277311,
+        97.3109243697479,
+        93.78151260504201,
+        92.26890756302521
+    ],
+    "mean_accuracy": 94.18487394957984,
+    "std_accuracy": 2.1007731081680316,
+    "teacher_accuracy": 99.15966391563416,
+    "original_student_accuracy": 77.8151273727417,
+    "model_path": "saved_models/best_distilled_student_T10_seed1918.h5",
+    "timestamp": "2026-01-07 12:54:39"
+}

@@ -1,0 +1,11 @@
+tensorflow==2.10.0  # Adjust based on your TensorFlow version
+numpy
+pandas
+scikit-learn
+matplotlib
+tabulate
+visualkeras 
+pillow
+seaborn
+scikit-image
+opencv-python

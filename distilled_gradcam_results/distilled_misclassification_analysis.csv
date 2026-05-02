@@ -1,0 +1,68 @@
+﻿image_index,true_class,predicted_class,confidence,attention_percentage,analysis,visualization_path
+176,Blast,Brown Spot,0.7247583270072937,64.4744873046875,"True: Blast - Symptoms: spindle-shaped spots with gray centers and brown margins
+Pred: Brown Spot - Symptoms: small, dark brown circular spots on leaves
+Attention coverage: 64.5% of image
+Attention focused in: top-left quadrant
+⚠️ Model attention is too diffuse - lacking specificity
+⚠️ Spot diseases should have focused attention on specific spots
+⚠️ Common confusion: Blast <-> Brown Spot (similar visual patterns)",distilled_gradcam_results\misclassified_001_true_1_pred_2.png
+177,Blast,Bacterial Blight,0.5470131635665894,9.91363525390625,"True: Blast - Symptoms: spindle-shaped spots with gray centers and brown margins
+Pred: Bacterial Blight - Symptoms: water-soaked lesions, typically starting at leaf edges
+Attention coverage: 9.9% of image
+Attention focused in: bottom-right quadrant
+⚠️ Model attention is very sparse - might be missing key features
+⚠️ Bacterial Blight lesions are usually extensive - sparse attention might miss key areas
+⚠️ Common confusion: Bacterial Blight <-> Blast (similar visual patterns)",distilled_gradcam_results\misclassified_002_true_1_pred_0.png
+231,Blast,Brown Spot,0.6687734127044678,51.64642333984375,"True: Blast - Symptoms: spindle-shaped spots with gray centers and brown margins
+Pred: Brown Spot - Symptoms: small, dark brown circular spots on leaves
+Attention coverage: 51.6% of image
+Attention focused in: bottom-right quadrant
+⚠️ Model attention is too diffuse - lacking specificity
+⚠️ Spot diseases should have focused attention on specific spots
+⚠️ Common confusion: Blast <-> Brown Spot (similar visual patterns)",distilled_gradcam_results\misclassified_003_true_1_pred_2.png
+257,Blast,Tungro,0.626275360584259,23.52447509765625,"True: Blast - Symptoms: spindle-shaped spots with gray centers and brown margins
+Pred: Tungro - Symptoms: yellow-orange discoloration, stunted growth
+Attention coverage: 23.5% of image
+Attention focused in: bottom-right quadrant
+⚠️ Tungro affects entire leaf - attention should be more widespread",distilled_gradcam_results\misclassified_004_true_1_pred_3.png
+263,Blast,Brown Spot,0.7760307192802429,33.0963134765625,"True: Blast - Symptoms: spindle-shaped spots with gray centers and brown margins
+Pred: Brown Spot - Symptoms: small, dark brown circular spots on leaves
+Attention coverage: 33.1% of image
+Attention focused in: top-right quadrant
+⚠️ Spot diseases should have focused attention on specific spots
+⚠️ Common confusion: Blast <-> Brown Spot (similar visual patterns)",distilled_gradcam_results\misclassified_005_true_1_pred_2.png
+282,Blast,Brown Spot,0.5528063178062439,38.85650634765625,"True: Blast - Symptoms: spindle-shaped spots with gray centers and brown margins
+Pred: Brown Spot - Symptoms: small, dark brown circular spots on leaves
+Attention coverage: 38.9% of image
+Attention focused in: bottom-right quadrant
+⚠️ Spot diseases should have focused attention on specific spots
+⚠️ Common confusion: Blast <-> Brown Spot (similar visual patterns)",distilled_gradcam_results\misclassified_006_true_1_pred_2.png
+290,Blast,Bacterial Blight,0.5760155916213989,13.64593505859375,"True: Blast - Symptoms: spindle-shaped spots with gray centers and brown margins
+Pred: Bacterial Blight - Symptoms: water-soaked lesions, typically starting at leaf edges
+Attention coverage: 13.6% of image
+Attention focused in: bottom-right quadrant
+⚠️ Model attention is very sparse - might be missing key features
+⚠️ Bacterial Blight lesions are usually extensive - sparse attention might miss key areas
+⚠️ Common confusion: Bacterial Blight <-> Blast (similar visual patterns)",distilled_gradcam_results\misclassified_007_true_1_pred_0.png
+362,Brown Spot,Bacterial Blight,0.8612168431282043,17.4407958984375,"True: Brown Spot - Symptoms: small, dark brown circular spots on leaves
+Pred: Bacterial Blight - Symptoms: water-soaked lesions, typically starting at leaf edges
+Attention coverage: 17.4% of image
+Attention focused in: top-left quadrant
+⚠️ Bacterial Blight lesions are usually extensive - sparse attention might miss key areas",distilled_gradcam_results\misclassified_008_true_2_pred_0.png
+375,Brown Spot,Tungro,0.5249212980270386,30.133056640625,"True: Brown Spot - Symptoms: small, dark brown circular spots on leaves
+Pred: Tungro - Symptoms: yellow-orange discoloration, stunted growth
+Attention coverage: 30.1% of image
+Attention focused in: top-left quadrant
+⚠️ Tungro affects entire leaf - attention should be more widespread",distilled_gradcam_results\misclassified_009_true_2_pred_3.png
+391,Brown Spot,Bacterial Blight,0.8057115077972412,14.459228515625,"True: Brown Spot - Symptoms: small, dark brown circular spots on leaves
+Pred: Bacterial Blight - Symptoms: water-soaked lesions, typically starting at leaf edges
+Attention coverage: 14.5% of image
+Attention focused in: bottom-right quadrant
+⚠️ Model attention is very sparse - might be missing key features
+⚠️ Bacterial Blight lesions are usually extensive - sparse attention might miss key areas",distilled_gradcam_results\misclassified_010_true_2_pred_0.png
+455,Brown Spot,Tungro,0.40404221415519714,10.13946533203125,"True: Brown Spot - Symptoms: small, dark brown circular spots on leaves
+Pred: Tungro - Symptoms: yellow-orange discoloration, stunted growth
+Attention coverage: 10.1% of image
+Attention focused in: top-right quadrant
+⚠️ Model attention is very sparse - might be missing key features
+⚠️ Tungro affects entire leaf - attention should be more widespread",distilled_gradcam_results\misclassified_011_true_2_pred_3.png

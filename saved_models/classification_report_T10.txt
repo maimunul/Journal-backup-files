@@ -1,0 +1,55 @@
+================================================================================
+CLASSIFICATION REPORT - Knowledge Distillation (T=10)
+================================================================================
+
+Model: Best Distilled Student (Seed: 1918)
+Test Accuracy: 97.31%
+Test Loss: 0.0737
+Number of Test Samples: 595
+Number of Classes: 4
+
+================================================================================
+                 precision    recall  f1-score   support
+
+Bacterialblight     0.9458    0.9874    0.9662       159
+          Blast     0.9854    0.9375    0.9609       144
+      Brownspot     0.9689    0.9750    0.9720       160
+         Tungro     1.0000    0.9924    0.9962       132
+
+       accuracy                         0.9731       595
+      macro avg     0.9750    0.9731    0.9738       595
+   weighted avg     0.9736    0.9731    0.9731       595
+
+================================================================================
+
+PER-CLASS CONFUSION MATRIX DETAILS
+================================================================================
+
+Class: Bacterialblight
+  True Positives:  157
+  False Positives: 9
+  False Negatives: 2
+  True Negatives:  427
+  Total Samples:   159
+
+Class: Blast
+  True Positives:  135
+  False Positives: 2
+  False Negatives: 9
+  True Negatives:  449
+  Total Samples:   144
+
+Class: Brownspot
+  True Positives:  156
+  False Positives: 5
+  False Negatives: 4
+  True Negatives:  430
+  Total Samples:   160
+
+Class: Tungro
+  True Positives:  131
+  False Positives: 0
+  False Negatives: 1
+  True Negatives:  463
+  Total Samples:   132
+
